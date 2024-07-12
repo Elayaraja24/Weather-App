@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: navy;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 320px;
+    padding:  10px 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input-container{
+    display: flex;
+    width: 110%;
+    align-items: center;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.input-box{
+    flex: 1;
+    height: 25px;
+    width: 93%;
+    border: 2px solid navy;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.search-icon{
+    padding:  13px;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+.search-icon button{
+    
+    /* margin-bottom: 10px; */
+    border: 2px solid navy;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 11px 15px; 
+    outline: none;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.search-icon button:hover{
+    background-color: skyblue;
+    border: 2px solid black;
+}
+.image{
+    text-align: center;
+    height: 150px;
+    margin-top: 4px;
+    margin-bottom: px;
+}
+.temp,
+.location,
+.country{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.temp{
+    font-weight: 500;
+}
+.location{
+    color: navy;
+    font-weight: 400;
+    font-size: 40px;
+}
+.country{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+.cordinates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+.cordinates div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.cordinates div span{
+    font-size: 14px;
+}
+.humidty,
+.wind,
+.cordinates div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    text-align: center;
+}
+.text{
+    font-size: 12px;
+    color: gray;
+}
+.city-error{
+    margin-top:10px;
+    text-align:center;
+    justify-content:center;
+    text-transform: uppercase;
+    color: navy;
+}
